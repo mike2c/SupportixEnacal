@@ -160,7 +160,7 @@
 									<th>Creado el</th>
 									<th>Ultima Modificación</th>
 								</tr>
-								<?
+								<?php
 									$total = 0;
 									foreach ($users as $user) {
 
@@ -187,7 +187,7 @@
 							</tbody>
 						</table>
 
-						<?
+						<?php
 						
 							} else {
 								echo "<p class='alert alert-danger'>No hay tickets</p>";
