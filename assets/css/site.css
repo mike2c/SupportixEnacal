@@ -1,0 +1,20 @@
+.btn-icon {
+    height: 40px;    
+    width: 40px;
+    margin: 10px;
+    background-color: transparent;    
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35);
+    transition: 0.25s ease-in-out;
+}
+
+.btn-icon:hover {
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+button[tableexport-id] {
+    background-color: #217245 !important;
+    color: white !important;
+}
